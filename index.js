@@ -109,7 +109,7 @@ function shekelToDollar() {
     window.alert("Enter value please!!");
   } else {
     var currency = displayValue;
-    currency = currency / 3.44583;
+    currency = currency / 3.2;
     viewValue.innerText = currency.toFixed(3) + " $";
   }
 }
@@ -120,7 +120,7 @@ function shekelToEuro() {
   } else {
     var currency = displayValue;
 
-    currency = currency / 3.86169;
+    currency = currency / 3.74;
     viewValue.innerText = currency.toFixed(3) + " €";
   }
 }
@@ -130,7 +130,7 @@ function euroToShekel() {
     window.alert("Enter value please!!");
   } else {
     var currency = displayValue;
-    currency = currency * 3.86169;
+    currency = currency * 3.74;
     viewValue.innerText = currency.toFixed(3) + " ₪";
   }
 }
@@ -140,7 +140,7 @@ function dollarToShekel() {
     window.alert("Enter value please!!");
   } else {
     var currency = displayValue;
-    currency = currency * 3.44583;
+    currency = currency * 3.2;
     viewValue.innerText = currency.toFixed(3) + " ₪";
   }
 }
