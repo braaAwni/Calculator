@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.navbar {
+  border: 2px solid white;
+  background-color: #ad3535;
+  color: ghostwhite;
+  text-align: center;
+  font-family: Forte;
+}
+.main {
+  background: #ccc;
+  text-align: center;
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+}
+.textView {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  pointer-events: none;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  align-items: center;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  width: 100%;
+  display: table;
+  clear: both;
+}
+.convert {
+  content: "";
+  width: 100%;
+  display: table;
+  clear: both;
+  background: #6d4b7e;
+  border-color: #d6d6d6;
+  color: #fff;
+}
+.col-3 {
+  width: 25%;
+  padding: 5px;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  padding: 5px;
+  float: left;
+}
+.numberBtn {
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+.currencyBtn {
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+
+.decimalBtn {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  font-weight: bold;
+}
+.button.top-button {
+  background: #6d4b7e;
+  border-color: #d6d6d6;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+.buttonEqual {
+  width: 100%;
+  height: 40px;
+  background: #ad3535;
+  color: #fff;
+  font-size: 22px;
+}
+.operatorBtn {
+  background: #20b2aa;
+  border-color: #d6d6d6;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
